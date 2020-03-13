@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/hoge',
+  pathPrefix: '/blog',
   siteMetadata: {
     title: `評論空間`,
     author: {
@@ -7,7 +7,7 @@ module.exports = {
       summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `気になったものをレビューして、ちょっと変わった方式でオススメしていきます。`,
-    siteUrl: `https://shutoyamada.github.io/rev-world.github.io/`,
+    siteUrl: `https://shutoyamada.github.io/rev-world.github.io/blog`,
     social: {
       twitter: `PyonCoin`,
     },
