@@ -14,6 +14,8 @@ const Layout = ({ location, title, children }) => {
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          width : '100%',
+          backgroundColor : '#6C9BD2'
         }}
       >
         <Link

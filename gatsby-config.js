@@ -1,14 +1,15 @@
 module.exports = {
+  pathPrefix: '/',
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `評論空間`,
     author: {
-      name: `Kyle Mathews`,
+      name: `Nekoniki`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `気になったものをレビューして、ちょっと変わった方式でオススメしていきます。`,
+    siteUrl: `https://shutoyamada.github.io/rev-world.github.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `PyonCoin`,
     },
   },
   plugins: [
@@ -60,11 +61,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `評論空間`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#6C9BD2`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },

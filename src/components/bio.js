@@ -43,6 +43,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
+      {/*
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
@@ -56,6 +57,8 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
+      */}
+      {/*
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
@@ -63,6 +66,7 @@ const Bio = () => {
           You should follow him on Twitter
         </a>
       </p>
+      */}
     </div>
   )
 }
